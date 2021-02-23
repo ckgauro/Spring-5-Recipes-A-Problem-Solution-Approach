@@ -1,5 +1,6 @@
 package com.apress.springrecipes.hello;
 
+
 public class Holiday {
 
     private int month;
@@ -29,4 +30,12 @@ public class Holiday {
     public void setGreeting(String greeting) {
         this.greeting = greeting;
     }
+
+	@Override
+	public String toString() {
+		return "Holiday [month=" + month + ", day=" + day + ", greeting=" + greeting + "]";
+	}
+    
+    
+    
 }
